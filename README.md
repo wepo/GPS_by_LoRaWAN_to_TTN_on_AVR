@@ -1,0 +1,2 @@
+# GPS_by_LoRaWAN_to_TTN_on_AVR
+Example code that may be put on an AVR-processor (Atmega328) wired together with a GPS (Quectel L80-M39) and a LoRa-tranciever (Hope RF95) to enable sending of GPS-coordinates to The Things Network and picking up reply messages from the same, via LoRaWAN-ABP. This code is based on the  lmic (https://github.com/matthijskooijman/arduino-lmic) and the TinyGPS++ (http://arduiniana.org/libraries/tinygpsplus/) libraries and inspired by the corresponding examples thereof (lots cutnpaste).
