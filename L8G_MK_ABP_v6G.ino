@@ -9,6 +9,8 @@
 #include <SPI.h>
 #include <TinyGPS++.h>
 
+// some testlines here to se where this edit ends up in branch, main etc...
+
 // LoRaWAN NwkSKey, network session key
 static const PROGMEM u1_t NWKSKEY[16] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }; //FILLIN TTN's "Network session key" in the format: 0x00, 0x00,... 0x00
 
